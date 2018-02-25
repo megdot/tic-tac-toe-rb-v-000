@@ -11,6 +11,7 @@ WIN_COMBINATIONS = [
   ]
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Welcome to Tic Tac Toe"
 
 def display_board(the_board) # what's made in a method stays in a method
   puts " #{the_board[0]} | #{the_board[1]} | #{the_board[2]} "
